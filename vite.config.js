@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      input: './public/index.html', // Ensure the input path is correct
+      input: './index.html', 
     }
   },
   server: {
-    port: process.env.PORT || 3000, // Bind the server to the provided PORT, or use 3000 as a fallback
-  },
+    port: process.env.PORT || 8080, 
+    host: true,
 })
