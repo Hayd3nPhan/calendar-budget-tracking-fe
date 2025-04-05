@@ -1,0 +1,30 @@
+.app-wrapper {
+  min-width: 1000px;
+}
+.app-title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.location-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.location-box input {
+  padding: 0.5rem;
+  border: 1px solid #555;
+  background-color: #111;
+  color: white;
+}
+
+.selected-date {
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}

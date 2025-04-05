@@ -26,12 +26,3 @@ dist-ssr/
 
 # Environment Variables
 .env
-
-# Ignore the contents of the public and src folders, but not the folders themselves
-/public/*
-/src/*
-
-# Ensure the public folder, index.html and src folder are NOT ignored
-!public/
-!public/index.html
-!src/
